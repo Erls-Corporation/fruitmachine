@@ -1,10 +1,10 @@
-$(document).ready( function(){
+$(document).ready( function() {
 	/*var canvas = document.getElementById('canvas-bandit');
 	var context = canvas.getContext('2d');
 	context.fillStyle = 'blue';
 	context.fillRect(30, 30, 50, 50);*/
 	
-	jQuery.easing.def = "easeOutBounce";
+	//jQuery.easing.def = "easeOutBounce";
 	
 	function hasDuplicate(arr) {
 	    var i = arr.length, j, val;
@@ -68,5 +68,4 @@ $(document).ready( function(){
 			$('#winner').html('Try again!');
 		}
 	});
-	
 });
